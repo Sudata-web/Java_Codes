@@ -1,32 +1,42 @@
 import java.util.Scanner;
 
 public class UserInput {
-
     public static void main(String[] args) {
-//        Scanner input = new Scanner(System.in);
-//        System.out.println(" please Enter your name : ");
-//        String name = input.nextLine();
-//        System.out.println("Good Morning " + name);
-//        System.out.println(name + ", Also tell me your age: ");
-//        int age = input.nextInt();
-//        System.out.println("Your age is: " + age);
-
 
 //1.Create a program to input name of the person and respond with "Welcome NAME to Sudata Coding" ?
 
+        Scanner input1 = new Scanner(System.in);
         System.out.println("Please enter ur name: ");
-        Scanner input = new Scanner(System.in);
-        String name = input.nextLine();
-        System.out.println("Welcome to " +name+ " Coding");
-
-//2.Create         
+        String namee = input1.nextLine();
+        System.out.println("Welcome to " +namee+ " Coding");
 
 
+//2.Create a program to add two number?
 
-
-
-
+        Scanner input2 = new Scanner(System.in);
+        System.out.println("Welcome to our Calculator");
+        System.out.println("Please enter the first number");
+        int firstNum = input2.nextInt();
+        System.out.println("Please enter the second number");
+        int secondNum = input2.nextInt();
+        int sum = firstNum + secondNum;
+        System.out.println("Sum of Number is: "+sum);
     }
+
 }
+
+
+//output:---
+//Please enter ur name:
+//Sudata
+//Welcome to Sudata Coding
+
+//Welcome to our Calculator
+//Please enter the first number
+//14
+//Please enter the second number
+//25
+//Sum of Number is: 39
+
 
 
